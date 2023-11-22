@@ -1,5 +1,4 @@
 $(function(){
-
   $('.price-filter__input-squre').ionRangeSlider({
     type: "double",
     onStart: function (data) {
@@ -23,7 +22,155 @@ $(function(){
       $('.price-filter__label-to--price').text(data.to);
   },
   })
-  
+
+
+  $('.price-filter__input--1').ionRangeSlider({
+    type: "double",
+    onStart: function (data) {
+      $('.price-filter__label-from').text(data.from);
+      $('.price-filter__label-to').text(data.to);
+  },
+    onChange: function (data) {
+      $('.label-from--1').text(data.from);
+      $('.label-to--1').text(data.to);
+  },
+  })
+  $('.price-filter__input--2').ionRangeSlider({
+    type: "double",
+    onStart: function (data) {
+      $('.price-filter__label-from').text(data.from);
+      $('.price-filter__label-to').text(data.to);
+  },
+    onChange: function (data) {
+      $('.label-from--2').text(data.from);
+      $('.label-to--2').text(data.to);
+  },
+  })
+  $('.price-filter__input--3').ionRangeSlider({
+    type: "double",
+    onStart: function (data) {
+      $('.price-filter__label-from').text(data.from);
+      $('.price-filter__label-to').text(data.to);
+  },
+    onChange: function (data) {
+      $('.label-from--3').text(data.from);
+      $('.label-to--3').text(data.to);
+  },
+  })
+  $('.price-filter__input--4').ionRangeSlider({
+    type: "double",
+    onStart: function (data) {
+      $('.price-filter__label-from').text(data.from);
+      $('.price-filter__label-to').text(data.to);
+  },
+    onChange: function (data) {
+      $('.label-from--4').text(data.from);
+      $('.label-to--4').text(data.to);
+  },
+  })
+  $('.price-filter__input--5').ionRangeSlider({
+    type: "double",
+    onStart: function (data) {
+      $('.price-filter__label-from').text(data.from);
+      $('.price-filter__label-to').text(data.to);
+  },
+    onChange: function (data) {
+      $('.label-from--5').text(data.from);
+      $('.label-to--5').text(data.to);
+  },
+  })
+  $('.price-filter__input--6').ionRangeSlider({
+    type: "double",
+    onStart: function (data) {
+      $('.price-filter__label-from').text(data.from);
+      $('.price-filter__label-to').text(data.to);
+  },
+    onChange: function (data) {
+      $('.label-from--6').text(data.from);
+      $('.label-to--6').text(data.to);
+  },
+  })
+  $('.price-filter__input--7').ionRangeSlider({
+    type: "double",
+    onStart: function (data) {
+      $('.price-filter__label-from').text(data.from);
+      $('.price-filter__label-to').text(data.to);
+  },
+    onChange: function (data) {
+      $('.label-from--7').text(data.from);
+      $('.label-to--7').text(data.to);
+  },
+  })
+  $('.price-filter__input--8').ionRangeSlider({
+    type: "double",
+    onStart: function (data) {
+      $('.price-filter__label-from').text(data.from);
+      $('.price-filter__label-to').text(data.to);
+  },
+    onChange: function (data) {
+      $('.label-from--8').text(data.from);
+      $('.label-to--8').text(data.to);
+  },
+  })
+  $('.price-filter__input--9').ionRangeSlider({
+    type: "double",
+    onStart: function (data) {
+      $('.price-filter__label-from').text(data.from);
+      $('.price-filter__label-to').text(data.to);
+  },
+    onChange: function (data) {
+      $('.label-from--9').text(data.from);
+      $('.label-to--9').text(data.to);
+  },
+  })
+  $('.price-filter__input--10').ionRangeSlider({
+    type: "double",
+    onStart: function (data) {
+      $('.price-filter__label-from').text(data.from);
+      $('.price-filter__label-to').text(data.to);
+  },
+    onChange: function (data) {
+      $('.label-from--10').text(data.from);
+      $('.label-to--10').text(data.to);
+  },
+  })
+  $('.price-filter__input--11').ionRangeSlider({
+    type: "double",
+    onStart: function (data) {
+      $('.price-filter__label-from').text(data.from);
+      $('.price-filter__label-to').text(data.to);
+  },
+    onChange: function (data) {
+      $('.label-from--11').text(data.from);
+      $('.label-to--11').text(data.to);
+  },
+  })
+  $('.price-filter__input--12').ionRangeSlider({
+    type: "double",
+    onStart: function (data) {
+      $('.price-filter__label-from').text(data.from);
+      $('.price-filter__label-to').text(data.to);
+  },
+    onChange: function (data) {
+      $('.label-from--12').text(data.from);
+      $('.label-to--12').text(data.to);
+  },
+  })
+  $('.price-filter__input--13').ionRangeSlider({
+    type: "double",
+    onStart: function (data) {
+      $('.price-filter__label-from').text(data.from);
+      $('.price-filter__label-to').text(data.to);
+  },
+    onChange: function (data) {
+      $('.label-from--13').text(data.from);
+      $('.label-to--13').text(data.to);
+  },
+  })
+
+
+
+
 
     $('.header__burger').on('click', function(){ 
         $('.burger-content').toggleClass('burger-content--active');
