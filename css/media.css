@@ -23,6 +23,10 @@
  
 
 @media (max-width:1300px){
+    .advanced-search__options, .advanced-search__selects{
+        justify-content: center;
+        gap: 50px;
+    }
     .cooperation__persons{
 justify-content: center;
     }
@@ -195,6 +199,10 @@ justify-content: center;
 }
 
 @media (max-width:1140px){
+    .advanced-search__checkbox {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
     .technology-page__text {
         max-width: 400px;
     }
@@ -559,6 +567,11 @@ padding: 0 30PX;
 }
 
 @media (max-width:720px){
+    .advanced-search__checkbox {
+        padding-left: 80px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
     .documents__category {
         flex-direction: column;
         gap: 30px;
@@ -803,6 +816,9 @@ padding: 0 30PX;
     .information-item-wrapper {
         padding-left:30px;
     }
+    .advanced-search__checkbox {
+        padding-left: 60px;
+    }
 }
 
 @media (max-width:480px){
@@ -1041,9 +1057,15 @@ height: 300px; */
     .cooperation__title{
         margin-bottom: 30px;
     }
+    .advanced-search__checkbox {
+        padding-left: 40px;
+    }
 }
 
 @media (max-width:400px){
+    .advanced-search__checkbox {
+        padding-left: 20px;
+    }
   .technology-page__advantages-items {
   flex-direction: column;
 }

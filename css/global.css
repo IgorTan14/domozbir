@@ -164,7 +164,7 @@ pointer-events: none;
     gap: 8px;
     display: none;
     width: 100%;
-
+z-index: 888;
 }
 .dropdown__list-item {
     color: #575757;
