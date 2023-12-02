@@ -105,10 +105,12 @@ justify-content: center;
         display: flex;
         flex-direction: column;
     }
+    
     .shop__inner  .slick-slide{
         display: flex;
         justify-content: center;
         align-items: center;
+
     }
     .shop__inner .shop__item-name{
         left: 37%;
@@ -117,6 +119,7 @@ justify-content: center;
         display: flex;
         justify-content: center;
         align-items: center;
+        gap: 16px;
     }
     .service__content {
         max-width:  100%;
@@ -977,6 +980,7 @@ height: 300px; */
     .hits .slick-dots{
         left: 20px;
         right: 20px;
+
     }
 
         .technology__inner {
@@ -1075,6 +1079,7 @@ height: 300px; */
 .technology-page__advantages-item {
     margin: 0 auto;
 }
+
 
     .top__text {
         top: 148px;

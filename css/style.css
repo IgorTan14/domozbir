@@ -857,7 +857,7 @@ left: -70px;
 }
 .hits .slick-dots{
     position: absolute;
-    display: flex;
+    display: flex !important;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -867,7 +867,7 @@ left: -70px;
     z-index: 9;
     left: 0;
     right: 0;
-    padding: 0 20px;
+    padding: 0 20px; 
 }
 .slick-dots li button{
     position: relative;
@@ -2191,7 +2191,7 @@ width: 100%;
 }
 .reviews__inner .slick-dots{
     display: flex;
-    grid-template: 16px;
+    gap: 16px;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
