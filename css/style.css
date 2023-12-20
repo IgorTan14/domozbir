@@ -301,22 +301,11 @@ gap: 8px;
     background-color: #F5F5F6;
 }
 
-/* .tabs-mini .dropdown-btn::after{
-    content: "";
-    width: 24px;
-    height: 24px;
-    position: absolute;
-    background-image: url('../images/icons/select-arr.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    right: 130px;
-    margin: auto 0;
-} */
 .dropdown-arr {
     position: absolute;
     right: 20px;
-    top: 32px;
+    /* top: 32px; */
+    top: 6px;
     cursor: pointer;
     pointer-events: none;
 }
